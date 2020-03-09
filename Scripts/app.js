@@ -1,3 +1,8 @@
+//Name: Ruchanshi Desai
+//Student ID: 100729822
+//Date Completed: 8 March 2020
+
+
 class Contact
 {
     constructor(contactName = "", emailAddress = "", contactNumber = "", contactMessage = "")
@@ -248,13 +253,23 @@ let app;
 
             
         });
+        
     }
 
     function DisplayProjectsContent()
     {
         document.title = "WEBD6201 - Projects";
     }
-
+    function confirmation(){
+        var result= confirm("Are you sure?");
+        if(result){
+            return true;
+        }
+            else{
+                return false;
+            }
+        
+    }
     function DisplayLoginContent()
     {
         document.title = "WEBD6201 - Login";
